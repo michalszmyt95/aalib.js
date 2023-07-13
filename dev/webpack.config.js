@@ -11,5 +11,5 @@ module.exports = {
             { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
         ]
     },
-    devtool: "#cheap-module-inline-source-map"
+    devtool: "inline-cheap-module-source-map"
 };

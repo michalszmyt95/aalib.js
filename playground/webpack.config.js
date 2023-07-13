@@ -40,7 +40,7 @@ module.exports = {
         },
         extensions: ["*", ".js", ".vue", ".json"]
     },
-    devtool: "#eval-source-map"
+    devtool: "eval-source-map"
 };
 
 if (process.env.NODE_ENV === "production") {
